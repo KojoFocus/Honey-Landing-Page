@@ -1,0 +1,33 @@
+/* Define the main Navigation block */
+#nav_bar {
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Remove bullets, margin, and padding from the list */
+#nav_bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the list items (links) */
+#nav_bar li {
+    float: left; /* Or you can use display: inline; */
+}
+
+/* Define the block styling for the links */
+#nav_bar li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Optional: Apply a background to the active link */
+#nav_bar li a.active {
+    background-color: #3786e1;
+}
