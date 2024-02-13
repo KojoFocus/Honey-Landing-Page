@@ -14,9 +14,9 @@ body {
 
 .bg {
     color: white;
-    background-image: linear-gradient(rgba(29, 27, 27, 0.5),
-            rgba(0, 0, 0, 0.5)), url(assets/glass\ jar\ of\ honey.jpg);
-    background-color: aquamarine;
+    background-image: linear-gradient(rgba(128, 161, 95, 0.5),
+            rgba(0, 0, 0, 0.5)), url(assets/bgpic\ \(1\).jpg);
+    /* background-color: aquamarine; */
     padding: 20px;
     background-repeat: no-repeat;
     height: 100vh;
@@ -34,12 +34,15 @@ ul {
 li {
     list-style-type: none;
     padding: 8px;
+    
 }
 
 a {
     text-decoration: none;
     color: #034b03;
     font-weight: bold;
+    padding-right: 20px;
+
 
 }
 
@@ -74,6 +77,8 @@ a {
     align-items: center;
     font-size: 25px;
     padding: 10px;
+    top: 0;
+    left: 0;
    
 }
 
@@ -163,4 +168,28 @@ font-size: 18;}
             padding-bottom: 30px;
         }
 
-        
+        .products {
+            background-color: #F8D133;
+        padding: 50px 20px;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .product-card img{ border-radius: 30px;
+
+    }
+
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo img {
+            padding: 0px 0px;
+            height: 150px;
+            width: 150px;
+            
+            
+        }
