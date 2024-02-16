@@ -8,7 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: rgb(90, 29, 7);
+    color: #58523C;
 
 }
 
@@ -39,7 +39,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #034b03;
+    color: #58523C;
     font-weight: bold;
     padding-right: 20px;
 
@@ -107,21 +107,38 @@ font-size: 18;}
 
 
 .btn {
-    background: #0b6616;
-    background-image: -webkit-linear-gradient(top, #0b6616, #0b6616);
-    background-image: -moz-linear-gradient(top, #0b6616, #0b6616);
-    background-image: -ms-linear-gradient(top, #0b6616, #0b6616);
-    background-image: -o-linear-gradient(top, #0b6616, #0b6616);
-    background-image: linear-gradient(to bottom, #0b6616, #0b6616);
+    background: #799C57;
+    background-image: -webkit-linear-gradient(top, #799C57, #799C57);
+    background-image: -moz-linear-gradient(top, #799C57, #799C57);
+    background-image: -ms-linear-gradient(top, #799C57, #799C57);
+    background-image: -o-linear-gradient(top, #799C57, #799C57);
+    background-image: linear-gradient(to bottom, #799C57, #799C57);
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
     font-family: Arial;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px 20px 10px 20px;
     border: solid #8c761f 2px;}
 
+    .btn:hover {
+        background: #8c761f;
+        background-image: -webkit-linear-gradient(top, #8c761f, #8c761f);
+        background-image: -moz-linear-gradient(top, #8c761f, #8c761f);
+        background-image: -ms-linear-gradient(top, #8c761f, #8c761f);
+        background-image: -o-linear-gradient(top, #8c761f, #8c761f);
+        background-image: linear-gradient(to bottom, #8c761f, #8c761f);
+        text-decoration: none;
+      }
+
+
+      .read button {
+        background: #8c761f;
+      }
+
+
+      
     .new-item {
     display: flex;
     align-items: center;
@@ -132,7 +149,7 @@ font-size: 18;}
 
     .new-item-text {
     padding: 50px;
-    color: white;
+    color: #58523C;
     }
 
     .text h3 {
@@ -177,7 +194,7 @@ font-size: 18;}
     }
 
     .product-card img{ border-radius: 30px;
-
+        display: flex;
     }
 
         .navbar{
@@ -193,3 +210,47 @@ font-size: 18;}
             
             
         }
+
+
+        .team {
+            background-color: #F8D133;
+        padding: 50px 20px;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .team-card img{ 
+        border-radius: 30px;
+        height: 250px;
+        width: 100%;
+
+    }
+        
+    /* CSS code for the footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .contact, .email {
+    font-size: 16px;
+  }
+  
+  .footer {
+    background-color: lightgreen;
+  }
+  
